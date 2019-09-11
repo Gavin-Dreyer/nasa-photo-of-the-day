@@ -31,3 +31,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+.imgContainer img{
+  height: auto;
+  max-width: 80%;
+  margin: auto;
+}
+
+.titleCon {
+  font-size: 5rem;
+  background-color: Grey;
+  width: 80%;
+  margin: auto;
+  box-shadow: 10px 10px;
+}
+
+.descriptCon {
+  font-size: 2.5rem;
+  width: 80%;
+  margin: auto;
+}

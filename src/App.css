@@ -48,7 +48,12 @@
 }
 
 .descriptCon {
-  font-size: 2.5rem;
+  font-size: 2rem;
   width: 80%;
   margin: auto;
+}
+
+.container button {
+  font-size: 5rem;
+  border-radius: 25px;
 }

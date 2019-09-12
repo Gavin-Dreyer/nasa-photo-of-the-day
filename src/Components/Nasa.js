@@ -31,6 +31,23 @@ const ButtonStyle = styled.button`
         12px 12px #77aaff;
 `;
 
+const DivCon = styled.div`
+  font-size: 2rem;
+  margin: 2rem auto 2rem auto;
+  display: flex;
+  justify-content: center;
+  text-shadow: 0 1px 0 #bbb,
+        0 2px 0 #bbb,
+        0 3px 0 #bbb,
+        0 4px 0 #bbb,
+        0 5px 0 #bbb,
+        0 6px 1px #bbb,
+        0 0px 3px #bbb,
+        0 1px 3px #bbb,
+        0 3px 5px #bbb,
+        0 5px 10px #bbb,
+        0 5px 20px #fff;
+`;
 
 function Nasa () {
 
@@ -99,6 +116,9 @@ function Nasa () {
         <div className="container">
             <Title title={photo.title} />
             <Photos imgUrl={photo.url} />
+            <DivCon>
+                {photo.date}
+            </DivCon>
             <Explanation descript={photo.explanation} />
             <ButtonStyle primary onClick={() => ChangeDay()}>Change Day</ButtonStyle>
             <ButtonStyle primary onClick={() => ChangeMonth()}>Change Month</ButtonStyle>

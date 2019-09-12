@@ -1,6 +1,6 @@
 import React from "react";
-import "./App.css";
-import Nasa from './Components/Nasa'
+import styled from 'styled-components';
+import Nasa from './Components/Nasa';
 
 function App() {
   return (
